@@ -13,11 +13,13 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("First_project")
         }
         .padding()
     }
 }
+
+// test_commit_to_git
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
