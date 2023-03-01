@@ -9,17 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+        ZStack {
+            Color.blue.ignoresSafeArea(.all)
             Text("First_project")
         }
         .padding()
     }
 }
-
 // test_commit_to_git
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundColor(.accentColor)
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
