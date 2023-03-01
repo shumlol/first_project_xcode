@@ -10,14 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.gray.ignoresSafeArea(.all)
-
+            Color.blue.ignoresSafeArea(.all)
             Text("First_project")
         }
         .padding()
     }
 }
-
 // test_commit_to_git
 //        VStack {
 //            Image(systemName: "globe")
