@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.grey.ignoresSafeArea(.all)
+            Color.gray.ignoresSafeArea(.all)
             Text("First_project")
         }
         .padding()
